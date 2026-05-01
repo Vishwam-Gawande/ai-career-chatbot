@@ -39,6 +39,7 @@ Instructions:
 - Be direct and specific
 - Avoid generic advice
 - Focus on AI/ML domain
+- Avoid generic advice. Be specific and actionable.
 
 Answer:
 """
@@ -99,5 +100,5 @@ if user_input:
         st.markdown(ai_response)
 
 st.markdown("---")
-st.caption("⚡ Powered by Real AI (LLM)")
+st.caption("⚡ Powered by Real AI (OpenRouter LLM)")
 st.markdown("Built by Vishwam 🚀 | AI Engineer in Progress")
