@@ -73,7 +73,7 @@ def call_ai(prompt):
         if "choices" in result:
             return result["choices"][0]["message"]["content"]
         else:
-            return "⚠️ Error: Unable to fetch response. Please try again."
+            return f"⚠️ API Error: {result}"
 
     except Exception as e:
         return f"⚠️ Error: {str(e)}"
