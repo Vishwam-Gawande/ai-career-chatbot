@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "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"
+API_KEY = st.secrets["API_KEY"]
 
 st.set_page_config(page_title="AI Career Assistant", page_icon="🤖")
 
